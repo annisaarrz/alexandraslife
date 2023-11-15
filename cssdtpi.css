@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Palanquin:wght@300;400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gochi+Hand&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Handlee&display=swap');*{
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	text-decoration: none;
+}
+body{
+  	background-repeat: no-repeat;
+  	background-size: cover;
+}
+.page1{
+  background-image: url('backgroundgunung.jpg');\
+  background-size: cover;
+}
+
+nav{
+	background: #2F4F4F;
+	height: 80px;
+	width: 100%;
+	text-align: center;
+	position: fixed;
+	top: 0px;
+	display: flex;
+	justify-content: space-between;
+}
+.home{
+	background-color: rgba(255, 255, 255, 0.7);
+	text-align: justify;
+	font-size: 20px;
+	width: 90%;
+  	height: 100%;
+  	padding: 100px;
+  	margin: 120px 5% 15px;
+}
+
+#logo{
+	float: left;
+	padding: 5px 60px;
+}
+nav ul{
+	float: right;
+	margin-right: 1%;
+	text-align: center;
+}
+nav ul li{
+	display: inline-block;
+	line-height: 5px;
+	margin: 35px 2px;
+}
+nav ul li a{
+	color: white;
+	font-size: 15px;
+	font-family: lucida console;
+	padding: 10px 15px;
+	border-radius: 9px;
+	text-transform: uppercase;
+}
+a.active, a:hover{
+	background: #5F9EA0;
+	transition: .5s;
+}
+.checkbtn{
+	font-size: 30px;
+	color: white;
+	float: right;
+	line-height: 80px
+	margin-right: 40px;
+	cursor: pointer;
+}
+#check{
+	display: none;
+}
+@media (max-width: 670px){
+	label.logo{
+		padding-left: 50px;
+	}
+}
+@media (max-width: 200px){
+	nav .checkbtn i{
+		display: block;
+		align-items: center;
+		display: flex;
+	}
+	ul{
+		position: fixed;
+		width: 90%;
+		height: 100vh;
+		background: #2F4F4F;
+		top: 60px;
+		left: -100;
+		text-align: left;
+		transition: all .5s;
+	}
+	nav ul li{
+		display: block;
+		margin: 50px 0px;
+		line-height: 5px;
+	}
+	nav ul li a{
+		font-size: 20px;
+		text-align: left;
+	}
+	a:hover,a.active{
+		background: none;
+		color: #B0C4DE;
+	}
+}
+.alexandra{
+	float: left;
+	max-width: 100%;
+  	height: auto;
+		}
+.alexandra2{
+	float: right;
+	max-width: 100%;
+  	height: auto;
+		}
+.aboutme, .future, .cf{
+	background-color: rgba(255, 255, 255, 0.7);
+	text-align: justify;
+	font-size: 15px;
+	width: 90%;
+  	height: 100%;
+  	padding: 100px;
+  	margin: 120px 70px 15px;
+		}
+.page2, .page3, .page4{
+  background-image: url('nextbackground.jpg');
+  background-size: cover;
+}
+h2{
+	font-family: Shrikhand;
+}
+p {
+	font-family: Palanquin;
+}
+.bungkus{
+	display: inline-block;
+}
+.fotofuture{
+	display: inline-block;
+	align-items: center;
+}
+.years{
+	background-color: #66CDAA;
+	border-radius: 7px;
+	text-align: center;
+	padding: 10px 15px;
+	font-family: Handlee;
+
+}
